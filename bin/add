@@ -6,5 +6,7 @@ URL=$1
 NAME=$(echo $URL | cut -d '/' -f 5)
 
 git clone $1 $BLOCKLISTS/sources/$NAME
+mkdir -p $BLOCKLISTS/generated/$NAME
+
 echo $NAME >> $BLOCKLISTS/plugins.txt
 

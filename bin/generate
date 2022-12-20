@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+PLUGIN=$1
+TARGET_LIST=$2
+URL=$(cat $BLOCKLISTS/sources/$PLUGIN/$TARGET_LIST)
+
+TARGET_FILE=$BLOCKLISTS/generated/$PLUGIN/$TARGET_LIST.txt
+
+touch $TARGET_FILE
+curl -o $TARGET_FILE $URL
