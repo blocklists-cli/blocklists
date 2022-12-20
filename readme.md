@@ -26,18 +26,23 @@ This is a plugin based tool, so you need to add plugins. Go searching on the int
 blocklists add PLUGIN_URL
 ```
 
-after that you can run: 
+after that, you can run: 
 
 ```bash
 blocklists generate PLUGIN_NAME LIST_NAME
 ```
+to actually download the list that you want. 
 
-to actually download the list that you want.
+You can also run:
 
+```bash
+blocklists list
+```
+
+to list all installed plugins.
 
 In case you don't want more some plugin, you can run this command to remove all stuff related with it:
 ```bash
 blocklists delete PLUGIN_NAME
 ```
-
 
