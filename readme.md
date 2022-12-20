@@ -5,6 +5,7 @@ Whit this tool, you can get plugins and download the blocklists based on what yo
 
 ## Requirements:
 
+* git
 * bash
 * curl
 
