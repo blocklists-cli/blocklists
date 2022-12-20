@@ -31,7 +31,7 @@ after that, you can run:
 ```bash
 blocklists generate PLUGIN_NAME LIST_NAME
 ```
-to actually download the list that you want. 
+to actually download the list that you want. To see the file, you can go to `~/generated` and look for you file.
 
 You can also run:
 

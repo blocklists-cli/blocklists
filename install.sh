@@ -8,6 +8,10 @@ git clone https://github.com/Dpbm/blocklists.git $BLOCKLISTS
 chmod +x $BLOCKLISTS/bin/*
 chmod +x $BLOCKLISTS/blocklists
 
+# link generated to HOME
+mkdir -p $HOME/generated
+ln -s $BLOCKLISTS/generated/ $HOME/generated
+
 # blocklists DIR
 echo "export BLOCKLISTS=\$HOME/blocklists" >> $HOME/.bashrc
 echo "export BLOCKLISTS=\$HOME/blocklists" >> $HOME/.zshrc
