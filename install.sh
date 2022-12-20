@@ -1,6 +1,6 @@
 git clone https://github.com/Dpbm/blocklists.git $HOME
 
-BLOCKLISTS=$HOME/blocklists/
+BLOCKLISTS=$HOME/blocklists
 
 # blocklists DIR
 echo "export BLOCKLISTS=\$HOME/blocklists" >> $HOME/.bashrc
