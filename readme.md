@@ -15,7 +15,7 @@ To start, install using this command:
 
 
 ```bash
-  sh -c https://raw.githubusercontent.com/Dpbm/blocklists/main/install.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Dpbm/blocklists/main/install.sh)"
 ```
 
 then, close your terminal, open another and you are ready to Start :)
