@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+NAME=$1
+
+rm -rf $BLOCKLISTS/generated/$NAME
+rm -rf $BLOCKLISTS/sources/$NAME
+sed "/$NAME/d" $BLOCKLISTS/plugins.txt > /tmp/new.txt && mv /tmp/new.txt $BLOCKLISTS/plugins.txt
