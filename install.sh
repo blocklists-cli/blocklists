@@ -1,3 +1,5 @@
+set -e
+
 git clone https://github.com/Dpbm/blocklists.git $HOME
 
 BLOCKLISTS=$HOME/blocklists
