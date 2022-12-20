@@ -9,7 +9,7 @@ chmod +x $BLOCKLISTS/bin/*
 chmod +x $BLOCKLISTS/blocklists
 
 # link generated to HOME
-ln -s $BLOCKLISTS/generated/ $HOME
+ln -s "$BLOCKLISTS/generated/" $HOME
 
 # blocklists DIR
 echo "export BLOCKLISTS=\$HOME/blocklists" >> $HOME/.bashrc
